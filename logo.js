@@ -1,4 +1,4 @@
-
+ 
 let slideIndexx = 0;
 function showlogo() {
   let i;

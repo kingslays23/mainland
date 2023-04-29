@@ -643,7 +643,7 @@ padding-left: 10%;
 }
 .flyer-write{
   color:black;
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -653,6 +653,7 @@ padding-left: 10%;
   padding: 5px;
   text-align:center;
 }
+
 .flyer-write h3{
   display: flex;
   justify-content: center;
@@ -764,7 +765,7 @@ left: 50px;
 /* Media Queries */
 
   /* Mobile Devices - Phones/Tablets */
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
   /* MOBILE HEADINGS */
   .write,.main2{
@@ -780,11 +781,15 @@ left: 50px;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.4rem;
+  }
+
+  h3{
+    font-size: 1.2em;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   /* MOBILE NAVIGATION */
@@ -873,14 +878,38 @@ left: 50px;
    flex-direction: column;
    align-items: center;
  }
+ .benefit{
+  width: 90%;
+  margin: 0 auto;
+ }
+ .flyer-write h1,h2, .enquiry{
+  text-align:center;
+}
  .flyer{
    width: 95%;
  }
  .flyer-write{
    color:black;
-   width: 100%;
+   width: 90%;
  }
-
+ .enquiry{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: minmax(60%, auto);
+  grid-gap: 2%;
+ }
+ .grid-1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+ }
+ .grid-1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+ } 
+ .grid-1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+ }
  .typed{
    position: absolute;
    bottom: 50%;
